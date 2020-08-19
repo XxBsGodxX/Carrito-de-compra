@@ -1,0 +1,115 @@
+.body{
+    margin: 0; 
+    border: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 80px 50px 4.5fr 0.3fr;
+    grid-template-areas: 
+    "title1 title2"
+    "copete1 copete2"
+    "productos sucompra"
+    "precio compra"
+    "total1 total2";
+}
+
+.title1
+{
+    grid-area: title1;
+    display: grid;
+    background-image: url(/IMG/banner\ prueba.png);
+    margin: 0px; 
+    border: 0px;
+    padding: 0px;
+}
+.title2
+{
+    grid-area: title2;
+    display: grid;
+    background-image: url(/IMG/banner\ prueba.png);
+    margin: 0px; 
+    border: 0px;
+    padding: 0px;
+}
+.copete1
+{
+    grid-area: copete1;
+    display: grid;
+    background-image: url(/IMG/Copete01\ Background.jpg);
+    margin: 0px; 
+    border: 0px;
+    padding: 0px; 
+}
+.copete2
+{
+    grid-area: copete2;
+    display: grid;
+    background-image: url(/IMG/Copete02\ Background.jpg);
+    margin: 0px; 
+    border: 0px;
+    padding: 0px; 
+}
+.precio
+{
+    grid-area: precio;
+    display: grid;
+    background-color:whitesmoke;
+    margin: 0px; 
+    border: 0px;
+    padding: 0px;  
+}
+.compra
+{
+    grid-area: compra;
+    display: grid;
+    background-color:whitesmoke;
+    margin: 0px; 
+    border: 0px;
+    padding: 0px; 
+}
+.total1
+{
+    grid-area: total1;
+    display: grid;
+    background-color:grey;
+    margin: 0px; 
+    border: 0px;
+    padding: 0px;
+}
+.total2
+{
+    grid-area: total2;
+    display: grid;
+    background-color:grey;
+    margin: 0px; 
+    border: 0px;
+    padding: 0px;
+}
+.propTabla{
+    margin-left: 30px;
+    height: 10px;
+    text-align: center;
+
+}
+.imagenTabla{
+    background-image: url(/IMG/Tabla\ Background.png);
+}
+
+.ProductosBackground {
+    grid-area: productos;
+    background-image: url(/IMG/Productos\ Background.jpg);
+    height: 50px;
+}
+
+.SuCompraBackground {
+    grid-area: sucompra;
+    background-image: url(/IMG/Su\ Compra\ Background.png);
+    height: 50px;
+}
+
+.TXT {
+    text-align: center;
+}
